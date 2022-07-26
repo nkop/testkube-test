@@ -3,7 +3,7 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
     video: false, // disable recording video for cypress run
     e2e: {
-        baseUrl: 'https://local.sanitairwinkel.nl',
+        baseUrl: 'https://localhost:3000',
         setupNodeEvents(on, config) {
             // implement node event listeners here
         },
