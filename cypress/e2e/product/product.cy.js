@@ -1,7 +1,7 @@
 describe('The Product Page', () => {
     it('contains all necessary elements', () => {
         // visit
-        cy.visit('/p/76907250/');
+        cy.visit('https://sanitairwinkel.nl/p/76907250/');
 
         // check if bought-together-products is visible
         cy.get('#bought-together-products')
