@@ -1,7 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-    video: false, // disable recording video for cypress run
+    video: true, // disable recording video for cypress run
     e2e: {
         baseUrl: 'https://sanitairwinkel.nl',
         setupNodeEvents(on, config) {
